@@ -27,5 +27,24 @@ Fitting a function to examples and using that function to generalize and make pr
 * Overfitting or underfitting to the data
 * Inaccurate representation of how the model will generalize.
 
+## Evaluation Matrix 
+Here we are defining weather people survied or not i.e. it's a classification problem. So, here we use three commonly used evaluation matrix.
+* Accuracy = # predicted correctly / total # of examples
+* Precision = # predicted as surviving that actually survived / total # predicted to survive
+* Recall = # predicted as surviving that actually survived / total # that actually survived
+
+# Optimizing a model
+## Bias & Variance tradeoff
+![](Images/2.PNG)
+
+### Bias
+* **Bias** is the algorithm's tendency to consistently learn the wrong thing by not taking into account all the information in the data.
+* **High bias** is a result of the algorithm missing the relevant relations between features and target output.
+
+### Variance
+* **Variance** refers to an algorithm's sensitivity to small fluctuations in the training set.
+* **High variance** is a result of the algorithm fitting to random noise in the training dataset.
+
+![](Images/3.PNG)
 
 
