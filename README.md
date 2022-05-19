@@ -40,11 +40,14 @@ Here we are defining weather people survied or not i.e. it's a classification pr
 ### Bias
 * **Bias** is the algorithm's tendency to consistently learn the wrong thing by not taking into account all the information in the data.
 * **High bias** is a result of the algorithm missing the relevant relations between features and target output.
+* ** Underfitting** occurs when an algorithm cannot capture the underlying trend of the data.
 
 ### Variance
 * **Variance** refers to an algorithm's sensitivity to small fluctuations in the training set.
 * **High variance** is a result of the algorithm fitting to random noise in the training dataset.
+* **Overfitting** occurs when an algorithm fits too closely to a limited set of data.
 
 ![](Images/3.PNG)
 
-
+**Total error = (Bias + Variance)+ Irreducible error**
+![](Images/4.PNG)
