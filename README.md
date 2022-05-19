@@ -1,4 +1,4 @@
-# Applied-Machine-Learning
+# Applied-Machine-Learning (Self Notes)
 Machine Learning on titanic dataset
 
 # First step is to perform Exploratory Data Analysis on dataset
