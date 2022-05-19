@@ -50,4 +50,10 @@ Here we are defining weather people survied or not i.e. it's a classification pr
 ![](Images/3.PNG)
 
 **Total error = (Bias + Variance)+ Irreducible error**
+
 ![](Images/4.PNG)
+
+### How you can diagnose underfit v/s overfit 
+![](Images/5.PNG)
+
+
