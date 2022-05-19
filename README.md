@@ -56,4 +56,12 @@ Here we are defining weather people survied or not i.e. it's a classification pr
 ### How you can diagnose underfit v/s overfit 
 ![](Images/5.PNG)
 
+## Two ways to tune model for optimal complexity
+* **Hyperparameter tuning** - choosing a set of optimal hyperparameters for fitting an algorithm. A **parameter** is estimated from the data whereas a **model hyperparameter** is value external from the model, whose value cannot be estimated from the data but whose value guides how the algorithm learns parameter values from the data.
+* **Regularization** - technique used to reduce overfitting by discouraging overly complex models in some way. **Goal** - Allow enough flexibility for the algorithm to learn the underlying patterns in the data but providing guardrails so it does't overfit.
+
+#### Examples of regularization:
+* Ridge Regression & lasso regression - adding a penalty to the loss function to constrain coefficients.
+* Dropout - some nodes are ignored during training which forces the other nodes to take on more or less responsibility for the input/output.
+
 
