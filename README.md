@@ -64,4 +64,8 @@ Here we are defining weather people survied or not i.e. it's a classification pr
 * Ridge Regression & lasso regression - adding a penalty to the loss function to constrain coefficients.
 * Dropout - some nodes are ignored during training which forces the other nodes to take on more or less responsibility for the input/output.
 
+## Lets give a look to different hyperparameters in the dataset
+![](Images/hyperparameters.PNG)
+
+
 
